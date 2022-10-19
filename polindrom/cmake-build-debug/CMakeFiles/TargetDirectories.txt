@@ -1,0 +1,3 @@
+C:/CLionProject/polindrom/cmake-build-debug/CMakeFiles/polindrom.dir
+C:/CLionProject/polindrom/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/CLionProject/polindrom/cmake-build-debug/CMakeFiles/rebuild_cache.dir
