@@ -7,9 +7,8 @@ int main() {
    char str[A][B];
    int num = 0, space1 = 0, space2,szf;
    bool bolk = true;
-   int p = 0;
    for(int i = 0; i<=A-1; i++){
-       cin.getline(str[i], B);
+       cin >> str[i];
    }
     for(int i = 0; i<=A-1; i++) {
         space1 = 0; space2 = 0;
