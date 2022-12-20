@@ -7,14 +7,14 @@
 using namespace std;
 
 struct PROFILE{
-    string NAME = " ";
-    string SURNAME =" ";
-    string PASSWORD = " ";
-    int PIN;
-    int NUMACC = 0;
-    int ACCOUNT[MAXACC] = {0,0,0,0,0,0,0,0,0,0};
+    string name ;
+    string surname;
+    string pasword;
+    int pin;
+    int numacc = 0;
+    int account[MAXACC] = {0,0,0,0,0,0,0,0,0,0};
 
-    void REGISTR(string, string, string, int);
+    PROFILE(string, string, string, int);
     void OPEN_ACC(int,int);
     void ADD_ACC(int, int);
 
