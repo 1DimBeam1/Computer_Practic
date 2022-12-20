@@ -7,6 +7,7 @@
 using namespace std;
 
 struct PROFILE{
+<<<<<<< Updated upstream
     string NAME = " ";
     string SURNAME =" ";
     string PASSWORD = " ";
@@ -15,6 +16,16 @@ struct PROFILE{
     int ACCOUNT[MAXACC] = {0,0,0,0,0,0,0,0,0,0};
 
     void REGISTR(string, string, string, int);
+=======
+    string name ;
+    string surname;
+    string pasword;
+    int pin;
+    int numacc = 0;
+    int account[MAXACC] = {0,0,0,0,0,0,0,0,0,0};
+
+    PROFILE(string, string, string, int);
+>>>>>>> Stashed changes
     void OPEN_ACC(int,int);
     void ADD_ACC(int, int);
 
